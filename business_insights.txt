@@ -1,0 +1,15 @@
+KEY BUSINESS FINDINGS
+=====================
+1. Total sales across the cleaned dataset: 652,877.81.
+2. Total profit across the cleaned dataset: 70,306.58.
+3. Highest-sales category: Technology (310,578.59 in sales).
+4. Region with the highest total profit: South (20,687.92 profit).
+5. 77 orders have negative profit; 39 of these orders have discounts of 20% or more.
+
+RECOMMENDATIONS
+---------------
+- Review discount rules for orders with high discounts and negative profit.
+- Compare both sales and profit before prioritizing a product category.
+- Monitor monthly sales to plan stock and promotions.
+- Investigate the lowest-profit sub-categories before increasing their inventory.
+- Validate missing or unusual values before publishing business reports.

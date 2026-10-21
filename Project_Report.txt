@@ -1,0 +1,32 @@
+SUPERSTORE SALES DATA ANALYSIS
+Beginner Data Analyst Internship Project
+
+1. OBJECTIVE
+To clean and explore retail order data using Python Pandas and create visual summaries that help explain sales, profit, discounts, and monthly trends.
+
+2. TOOLS USED
+Python, Pandas, Matplotlib, CSV, and VS Code.
+
+3. DATASET
+The practice dataset contains order ID, order date, region, category, sub-category, sales, quantity, discount, and profit. It contains 600 generated practice orders and a small number of missing values for data-cleaning practice.
+
+4. METHODOLOGY
+- Inspected dataset dimensions and missing values.
+- Converted dates and numeric columns to suitable data types.
+- Handled missing category fields and removed rows missing essential values.
+- Removed duplicate order IDs.
+- Grouped data by category, region, sub-category, and month.
+- Created charts for category sales, regional profit, monthly sales, and sub-category profit.
+
+5. KEY FINDINGS
+Run `analysis.py` and copy the five calculated findings from `outputs/business_insights.txt` into this section. The values are calculated from the included practice dataset.
+
+6. RECOMMENDATIONS
+- Review high-discount orders that produce negative profit.
+- Use both sales and profit when prioritizing product categories.
+- Monitor monthly trends when planning inventory and promotions.
+- Investigate low-profit sub-categories.
+- Check missing values and data quality before sharing reports.
+
+7. CONCLUSION
+This project demonstrates a basic end-to-end EDA workflow: data inspection, cleaning, grouping, visualization, and business recommendations. The dataset is synthetic and intended only for practice.

@@ -1,0 +1,56 @@
+Original shape: (600, 9)
+
+Missing values before cleaning:
+ Order_ID        0
+Order_Date      0
+Region          2
+Category        1
+Sub_Category    0
+Sales           1
+Quantity        0
+Discount        0
+Profit          0
+dtype: int64
+
+Cleaned shape: (599, 11)
+
+Descriptive statistics:
+          Sales  Quantity  Discount  Profit
+count   599.00    599.00    599.00  599.00
+mean   1089.95      4.42      0.11  117.37
+std     976.15      2.26      0.09  163.07
+min      13.63      1.00      0.00 -589.39
+25%     346.69      2.00      0.05   19.23
+50%     803.64      4.00      0.10   72.07
+75%    1540.45      6.00      0.20  170.74
+max    5643.29      8.00      0.30  966.06
+
+KEY BUSINESS FINDINGS
+=====================
+1. Total sales across the cleaned dataset: 652,877.81.
+2. Total profit across the cleaned dataset: 70,306.58.
+3. Highest-sales category: Technology (310,578.59 in sales).
+4. Region with the highest total profit: South (20,687.92 profit).
+5. 77 orders have negative profit; 39 of these orders have discounts of 20% or more.
+
+RECOMMENDATIONS
+---------------
+- Review discount rules for orders with high discounts and negative profit.
+- Compare both sales and profit before prioritizing a product category.
+- Monitor monthly sales to plan stock and promotions.
+- Investigate the lowest-profit sub-categories before increasing their inventory.
+- Validate missing or unusual values before publishing business reports.
+
+
+Done. Outputs saved in: /mnt/data/Superstore_EDA_Project/outputs
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
